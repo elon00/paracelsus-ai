@@ -1,0 +1,54 @@
+{
+  "mcpServers": {
+    "paracelsus-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "TITAN_PROTOCOL": "PARACELSUS",
+        "TARGET_CHAIN": "Solana",
+        "FIPS_203_LEVEL": "ML-KEM-768",
+        "FIPS_204_LEVEL": "ML-DSA-65"
+      },
+      "tools": [
+        {
+          "name": "calculate_dose_toxicity_threshold",
+          "description": "Evaluates LD50 and therapeutic margins proving 'the dose makes the poison'",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "dosage_mg_kg": {
+                "type": "number"
+              },
+              "compound_id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "dosage_mg_kg"
+            ]
+          }
+        },
+        {
+          "name": "synthesize_mineral_salt_chelate",
+          "description": "Computes molecular binding ratios of antimony and mercury mineral therapeutics",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "mineral_element": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "mineral_element"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
