@@ -1,0 +1,14 @@
+{
+  "project": "paracelsus-ai",
+  "network": "Solana Devnet",
+  "cluster_url": "https://api.devnet.solana.com",
+  "mint_address": "8wLtP2Vxmg9fQ5nSjCZcU9xECwzN9bTyoEJT6aHkh5SQ",
+  "vault_account": "98aak3X1Sjdnm5uGEzV6zRDX1WsrDeoTV4K3PR7FJE6o",
+  "initial_supply": 1000000,
+  "decimals": 9,
+  "creation_tx": "3LRW8jDBisfbxksux1evwvWitjHVVTezy4v6WXVKquATWqhHt45QWBETxAGCRAFBBLSASpJ1vVdKjFLGFTEwYNF9",
+  "account_tx": "45ftuoE9tjjLtbkbzUCPtyLUcPbPwQzFwBKscJNV9bMHEK8Ubgki19YrQYAvKba6pGpcQJDvBjh7wM7eMtit8FQq",
+  "mint_tx": "4KxPyFCNLRxerVR97PDtmTCDVpUF8vr8Kn8naNRyyDzU1JHGPpVZcwksqkxAMmfmWbU6Tg7WN6oJZum9NCLXwGse",
+  "solana_explorer_mint": "https://explorer.solana.com/address/8wLtP2Vxmg9fQ5nSjCZcU9xECwzN9bTyoEJT6aHkh5SQ?cluster=devnet",
+  "timestamp": "2026-10-26 16:53:24 UTC"
+}
